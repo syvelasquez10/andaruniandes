@@ -1,14 +1,15 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
 @import "animate.css";
-@import url(http://fonts.googleapis.com/css?family=Helvetica);
+@import url(http://fonts.googleapis.com/css?family=Marvel);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 /*========================================================
                     Main layout styles
 =========================================================*/
 body {
-  background: #174957;
+  background: #129894;
   color: #363535;
-  font: 300 18px/36px 'Helvetica', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 .ic {
   border:0;
@@ -24,7 +25,7 @@ body {
 } 
 a {
   font: inherit;
-  color: #174957;
+  color: #129894;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -48,28 +49,28 @@ img {
 }
 /*============  Text  =============*/
 .text_1 {
-  font: 300 68px/60px 'Helvetica', sans-serif;
+  font: 300 68px/60px 'Helvetica';
 }
 .text_2 {
-  font: 600 24px/30px 'Helvetica', sans-serif;
+  font: 600 24px/30px 'Helvetica';
 }
 .text_3 {
-  font: 300 18px/24px 'Helvetica', sans-serif;
+  font: 300 18px/24px 'Helvetica';
 }
 .text_4 {
-  font: 400 14px/16px 'Helvetica', sans-serif;
+  font: 400 14px/16px 'Helvetica';
 }
 .text_5 {
-  font: 300 14px/20px 'Helvetica', sans-serif;
+  font: 300 14px/20px 'Helvetica';
 }
 .text_6 {
-  font: 400 18px/26px 'Helvetica', sans-serif;
+  font: 400 18px/26px 'Helvetica';
 }
 .text_7 {
-  font: 400 18px/20px 'Helvetica', sans-serif;
+  font: 400 18px/20px 'Helvetica';
 }
 .text_8 {
-  font: 400 14px/20px 'Helvetica', sans-serif;
+  font: 400 14px/20px 'Helvetica';
 }
 /*============  Colors  =============*/
 .color_1 {
@@ -85,13 +86,13 @@ img {
   color: inherit;
 }
 .color_3 {
-  color: #174957;
+  color: #23B3AF;
 }
 .color_3 a {
   color: inherit;
 }
 .color_4 {
-  color: #174957;
+  color: #a0d6d4;
 }
 .color_4 a {
   color: inherit;
@@ -106,6 +107,12 @@ img {
   color: #4a4a4a;
 }
 .color_6 a {
+  color: inherit;
+}
+.color_7 {
+  color: #0F2932;
+}
+.color_7 a {
   color: inherit;
 }
 /*============  Backgrounds  =============*/
@@ -164,7 +171,7 @@ img {
 .sf-menu > li {
   position: relative;
   float: left;
-  font: 400 20px/20px 'Helvetica', sans-serif;
+  font: 400 20px/20px 'He';
   text-transform: capitalize;
   letter-spacing: 1.1px;
 }
@@ -178,7 +185,7 @@ img {
 .sf-menu > li.current > a,
 .sf-menu > li > a:hover {
   background: #edecec;
-  color: #174957;
+  color: #23B3AF;
   text-decoration: none;
 }
 .sf-menu > li.sfHover > a:after,
@@ -190,7 +197,7 @@ img {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #174957;
+  background: #23B3AF;
 }
 .sf-menu > li + li {
   margin-left: 10px;
@@ -217,7 +224,7 @@ img {
 .sf-menu ul li.sfHover > a,
 .sf-menu ul li.current > a,
 .sf-menu ul li a:hover {
-  background: #174957;
+  background: #129894;
   color: #ffffff;
   text-decoration: none;
 }
@@ -262,7 +269,7 @@ img {
     border-radius: 0;
     -webkit-appearance: none;
     outline: none;
-    font: normal 14px 'Helvetica', sans-serif;
+    font: normal 14px 'Helvetica';
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -295,7 +302,7 @@ img {
 /*============  Headers  =============*/
 .header_1 {
   text-align: center;
-  font: 600 48px/60px 'Helvetica', sans-serif;
+  font: 600 48px/60px 'Helvetica';
 }
 .header_1.indent_1 {
   padding-bottom: 56px;
@@ -316,7 +323,7 @@ img {
   }
 }
 .header_2 {
-  font: 600 36px/30px 'Helvetica', sans-serif;
+  font: 600 36px/30px 'Helvetica';
 }
 .header_2.indent_1 {
   padding-bottom: 30px;
@@ -422,7 +429,7 @@ img {
 /*============  Butttons  =============*/
 .btn_1 {
   display: inline-block;
-  font: 400 30px/30px 'Helvetica', sans-serif;
+  font: 400 30px/30px 'Helvetica';
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #000000;
@@ -430,7 +437,7 @@ img {
 }
 .letra_imagen {
   display: inline-block;
-  font: 400 35px/35px 'Helvetica', sans-serif;
+  font: 400 35px/35px 'Helvatica';
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #FFFFFF;
@@ -449,7 +456,7 @@ img {
 .btn_2 {
   display: inline-block;
   padding: 4px 20px 3px;
-  font: 400 24px/30px 'Helvetica', sans-serif;
+  font: 400 24px/30px 'Helvetica';
   color: #413d3d;
   background: #f1f045;
 }
@@ -461,7 +468,7 @@ img {
 .btn_3 {
   display: inline-block;
   padding: 4px 34px 3px 33px;
-  font: 400 24px/30px 'Helvetica', sans-serif;
+  font: 400 24px/30px 'Helvetica';
   color: #413d3d;
   background: #f1f045;
 }
@@ -529,8 +536,8 @@ img {
   display: inline-block;
   width: 117px;
   height: 117px;
-  color: #174957;
-  border: 1px solid #199b97;
+  color: #23B3AF;
+  border: 1px solid #23B3AF;
   text-align: center;
   border-radius: 100px;
 }
@@ -623,8 +630,8 @@ img {
   border-radius: 25px;
   text-align: center;
   color: #ffffff;
-  background: #174957;
-  font: 700 36px/48px 'Helvetica', sans-serif;
+  background: #129894;
+  font: 700 36px/48px 'Helvetica';
 }
 .box_5 .text_2 + .text_3 {
   padding-top: 24px;
@@ -707,7 +714,7 @@ img {
   border-radius: 25px;
 }
 .list_1 li a:hover {
-  background: #174957;
+  background: #129894;
   text-decoration: none;
 }
 .list_1 li a.fa-twitter {
@@ -749,7 +756,7 @@ img {
   top: 9px;
   width: 10px;
   height: 10px;
-  background: #174957;
+  background: #129894;
   border-radius: 5px;
 }
 .list_3 li {
@@ -889,7 +896,7 @@ a[data-type='lightbox']:hover img {
 #toTop:hover {
   outline: none;
   text-decoration: none;
-  color: #174957;
+  color: #129894;
 }
 #toTop:active {
   background: transparent;
@@ -1037,7 +1044,7 @@ a.control_next {
     left:-1%; /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing:border-box;
-    background-color: rgba(23,73,87,0.9);
+    background-color: rgba(0, 128, 128, 0.8);
     font-weight: 300;
     -webkit-transition:  -webkit-transform .3s ease-out, opacity .3s ease-out;
             transition:          transform .3s ease-out, opacity .3s ease-out;
@@ -1210,10 +1217,7 @@ a.control_next {
 }
 .titulo {
   text-align: center;
-  font: bold 30px/30px 'Helvetica', sans-serif;
-}
-.tituloPreguntas {
-  font: bold 25px/25px 'Helvetica', sans-serif;
+  font: 400 30px/30px 'He';
 }
 .box_1 .icon_5:before {
   content: '\f06e';
