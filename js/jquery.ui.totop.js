@@ -24,6 +24,18 @@
 		})
 		
 								
-		
+		$(window).scroll(function() {
+			var sd = $(window).scrollTop();
+			if(typeof document.body.style.maxHeight === "undefined") {
+				$(containerIDhash).css({
+					'position': 'absolute',
+					'top': $(window).scrollTop() + $(window).height() - 50
+				});
+			}
+			if ( sd > settings.min ) 
+				$(containerIDhash).stop(true,true).fadeIn(600);
+			else 
+				$(containerIDhash).fadeOut(800);
+		});
 };
 })(jQuery);
