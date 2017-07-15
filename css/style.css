@@ -1,19 +1,12 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+@import "font-awesome.css";
 @import "animate.css";
-@import url(http://fonts.googleapis.com/css?family=Marvel);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 /*========================================================
                     Main layout styles
 =========================================================*/
-@font-face {
-    font-family: "He";
-    src: local("Helvetica");
-}
 body {
-  background: #129894;
+  background: #174957;
   color: #363535;
-  font: 300 18px/36px 'He', sans-serif;
-
+  font: 300 18px/36px 'Helvetica', sans-serif;
 }
 .ic {
   border:0;
@@ -26,7 +19,7 @@ body {
   margin:-220% 0 0 0;
   overflow:hidden;
   padding:0
-} 
+}
 a {
   font: inherit;
   color: #174957;
@@ -53,28 +46,28 @@ img {
 }
 /*============  Text  =============*/
 .text_1 {
-  font: 300 68px/60px 'He';
+  font: 300 68px/60px 'Helvetica', sans-serif;
 }
 .text_2 {
-  font: 600 24px/30px 'He';
+  font: 600 24px/30px 'Helvetica', sans-serif;
 }
 .text_3 {
-  font: 300 18px/24px 'He';
+  font: 300 18px/24px 'Helvetica', sans-serif;
 }
 .text_4 {
-  font: 400 14px/16px 'He';
+  font: 400 14px/16px 'Helvetica', sans-serif;
 }
 .text_5 {
-  font: 300 14px/20px 'He';
+  font: 300 14px/20px 'Helvetica', sans-serif;
 }
 .text_6 {
-  font: 400 18px/26px 'He';
+  font: 400 18px/26px 'Helvetica', sans-serif;
 }
 .text_7 {
-  font: 400 18px/20px 'He';
+  font: 400 18px/20px 'Helvetica', sans-serif;
 }
 .text_8 {
-  font: 400 14px/20px 'He';
+  font: 400 14px/20px 'Helvetica', sans-serif;
 }
 /*============  Colors  =============*/
 .color_1 {
@@ -96,7 +89,7 @@ img {
   color: inherit;
 }
 .color_4 {
-  color: #a0d6d4;
+  color: #174957;
 }
 .color_4 a {
   color: inherit;
@@ -111,12 +104,6 @@ img {
   color: #4a4a4a;
 }
 .color_6 a {
-  color: inherit;
-}
-.color_7 {
-  color: #0F2932;
-}
-.color_7 a {
   color: inherit;
 }
 /*============  Backgrounds  =============*/
@@ -175,7 +162,7 @@ img {
 .sf-menu > li {
   position: relative;
   float: left;
-  font: 400 20px/20px 'He';
+  font: 400 20px/20px 'Helvetica', sans-serif;
   text-transform: capitalize;
   letter-spacing: 1.1px;
 }
@@ -228,7 +215,7 @@ img {
 .sf-menu ul li.sfHover > a,
 .sf-menu ul li.current > a,
 .sf-menu ul li a:hover {
-  background: #129894;
+  background: #174957;
   color: #ffffff;
   text-decoration: none;
 }
@@ -273,7 +260,7 @@ img {
     border-radius: 0;
     -webkit-appearance: none;
     outline: none;
-    font: normal 14px 'He';
+    font: normal 14px 'Helvetica', sans-serif;
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -306,7 +293,7 @@ img {
 /*============  Headers  =============*/
 .header_1 {
   text-align: center;
-  font: 600 48px/60px 'He';
+  font: 600 48px/60px 'Helvetica', sans-serif;
 }
 .header_1.indent_1 {
   padding-bottom: 56px;
@@ -327,7 +314,7 @@ img {
   }
 }
 .header_2 {
-  font: 600 36px/30px 'He';
+  font: 600 36px/30px 'Helvetica', sans-serif;
 }
 .header_2.indent_1 {
   padding-bottom: 30px;
@@ -433,7 +420,7 @@ img {
 /*============  Butttons  =============*/
 .btn_1 {
   display: inline-block;
-  font: 400 30px/30px 'He';
+  font: 400 30px/30px 'Helvetica', sans-serif;
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #000000;
@@ -441,7 +428,7 @@ img {
 }
 .letra_imagen {
   display: inline-block;
-  font: 400 35px/35px 'He';
+  font: 400 35px/35px 'Helvetica', sans-serif;
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #FFFFFF;
@@ -460,7 +447,7 @@ img {
 .btn_2 {
   display: inline-block;
   padding: 4px 20px 3px;
-  font: 400 24px/30px 'He';
+  font: 400 24px/30px 'Helvetica', sans-serif;
   color: #413d3d;
   background: #f1f045;
 }
@@ -472,7 +459,7 @@ img {
 .btn_3 {
   display: inline-block;
   padding: 4px 34px 3px 33px;
-  font: 400 24px/30px 'He';
+  font: 400 24px/30px 'Helvetica', sans-serif;
   color: #413d3d;
   background: #f1f045;
 }
@@ -541,7 +528,7 @@ img {
   width: 117px;
   height: 117px;
   color: #174957;
-  border: 1px solid #174957;
+  border: 1px solid #199b97;
   text-align: center;
   border-radius: 100px;
 }
@@ -634,8 +621,8 @@ img {
   border-radius: 25px;
   text-align: center;
   color: #ffffff;
-  background: #129894;
-  font: 700 36px/48px 'He';
+  background: #174957;
+  font: 700 36px/48px 'Helvetica', sans-serif;
 }
 .box_5 .text_2 + .text_3 {
   padding-top: 24px;
@@ -718,7 +705,7 @@ img {
   border-radius: 25px;
 }
 .list_1 li a:hover {
-  background: #129894;
+  background: #174957;
   text-decoration: none;
 }
 .list_1 li a.fa-twitter {
@@ -733,6 +720,13 @@ img {
   line-height: 52px;
 }
 .list_1 li a.fa-facebook:before {
+  padding-left: 2px;
+}
+.list_1 li a.fa-instagram {
+  font-size: 35px;
+  line-height: 52px;
+}
+.list_1 li a.fa-instagram:before {
   padding-left: 2px;
 }
 .list_1 li a.fa-google-plus {
@@ -760,7 +754,7 @@ img {
   top: 9px;
   width: 10px;
   height: 10px;
-  background: #129894;
+  background: #174957;
   border-radius: 5px;
 }
 .list_3 li {
@@ -900,7 +894,7 @@ a[data-type='lightbox']:hover img {
 #toTop:hover {
   outline: none;
   text-decoration: none;
-  color: #129894;
+  color: #174957;
 }
 #toTop:active {
   background: transparent;
@@ -1048,7 +1042,7 @@ a.control_next {
     left:-1%; /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing:border-box;
-    background-color: rgba(15, 49, 66, 0.8);
+    background-color: rgba(23,73,87,0.9);
     font-weight: 300;
     -webkit-transition:  -webkit-transform .3s ease-out, opacity .3s ease-out;
             transition:          transform .3s ease-out, opacity .3s ease-out;
@@ -1221,7 +1215,10 @@ a.control_next {
 }
 .titulo {
   text-align: center;
-  font: 400 30px/30px 'He';
+  font: bold 30px/30px 'Helvetica', sans-serif;
+}
+.tituloPreguntas {
+  font: bold 25px/25px 'Helvetica', sans-serif;
 }
 .box_1 .icon_5:before {
   content: '\f06e';
@@ -1244,14 +1241,14 @@ a.control_next {
   opacity: 0.8;
 }
 
-.polig{ 
-  width:308px; 
-  height:308px; 
-  background:#174957; 
-  font-family:arial; 
-  font-weight:bold; 
-  color:#EEEEEE; 
-} 
+.polig{
+  width:308px;
+  height:308px;
+  background:#23B3AF;
+  font-family:arial;
+  font-weight:bold;
+  color:#EEEEEE;
+}
 
 img.displayed {
     display: block;
@@ -1267,12 +1264,14 @@ div.displayed {
     margin-left: auto;
     margin-right: auto; }
 
-.polig2{ 
-width:200px; 
-height:200px; 
-background:#174957; 
-font-family:helvetica; 
-font-weight:bold; 
-color:#FFFFFF; 
-} 
+.polig2{
+width:200px;
+height:200px;
+background:#23B3AF;
+font-family:helvetica;
+font-weight:bold;
+color:#FFFFFF;
+}
 
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; }
+ .embed-container iframe { position: absolute; top:0; left: 0; width: 100%; height: 100%; }

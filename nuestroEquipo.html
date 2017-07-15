@@ -13,9 +13,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
     <script src="js/jquery.equalheights.js"></script>
-    <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="js/jquery.mobile.customized.min.js"></script>
-    <!--<![endif]-->
     <script src="js/carrusel.js"></script>
     <script src="js/camera.js"></script>
     <script src="js/owl.carousel.js"></script>
@@ -38,25 +35,21 @@
 =========================================================-->
 <header id="header">
     <div id="x">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <br>
                 <div class="col-md-8">
                     <div class="brand put-left">
-                        <h1>
-                            <a href="http://www.uniandes.edu.co/">
-                                <img src="images/uniandes.jpg" width="200px" height="200px" alt="LogoUniandes"/>
-                            </a>
-                        </h1>
+                      <a href="http://www.uniandes.edu.co/">
+                          <img src="images/uniandes.jpg" width="200px" height="200px" alt="LogoUniandes"/>
+                      </a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="brand put-rigth">
-                        <h1>
-                            <a href="index.html">
-                                <img src="images/andar.png" width="200px" height="200px" alt="LogoAndar"/>
-                            </a>
-                        </h1>
+                      <a href="index.html" style="float:right;">
+                          <img src="images/andar.png" width="200px" height="200px" alt="LogoAndar"/>
+                      </a>
                     </div>
                 </div>
                 <div class="grid_12">
@@ -67,17 +60,18 @@
                             <li>
                                 <a href="programas.html">Programas</a>
                                  <ul>
-                                    <li><a href="programas.html#andarSocial">ANDAR Social</a></li>
+                                   <!--<li><a href="programas.html#andarSocial">ANDAR social</a></li>-->
                                     <li><a href="programas.html#bancoLibros">Banco de libros</a></li>
                                     <li><a href="programas.html#comunicaciones">Comunicaciones</a></li>
                                     <li><a href="programas.html#comunidad">Comunidad ANDAR</a></li>
                                     <li><a href="programas.html#padrinazgo">Padrinazgo</a></li>
                                     <li><a href="programas.html#solucionesA">Soluciones académicas</a></li>
+                                    <li><a href="programas.html#investigacion">Investigación</a></li>
                                 </ul>
                             </li>
                             <li class="current"><a href="nuestroEquipo.html">Nuestro Equipo</a></li>
-                            <li><a href="eventos.html">Eventos</a></li>
-                            <li><a href="underConstruction.html">Contáctanos</a></li>
+                            <li><a href="preguntasFrecuentes.html">Preguntas frecuentes</a></li>
+                            <li><a href="involucrate.html">Involucrate</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -92,7 +86,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="espacio_izquierda espacio_derecha">
+            <div>
                 <h2 class="espacio_izquierda  wrap_3 color_3">Conoce a nuestro Equipo</h2>
                 <br>
                 <p class="text_3 color_2 texto_justificar espacio_izquierda espacio_derecha">
@@ -106,25 +100,38 @@
             <h2 class="titulo grid_12 wrap_3 color_3">Coordinadores</h2>
         </div>
         <div class="centrado" >
-            <div class="col-md-1" >
-            </div>
-            <div class="col-md-6 container espacio_arriba" >
-                <img src="images/fotos/jean.jpg" style="width: 304px; height: 400px; object-fit: contain;">
-                <div  class="centrado espacio_arriba espacio_izquierda" >
+            <div class="col-md-4 container espacio_arriba espacio_izquierda" >
+                 <center>
+                    <img src="images/jean.jpg" style="object-fit: contain;">
+                    <div  class=" espacio_arriba" >
                     <Strong style="font-size: 18px;">Jean Paul Bernier Sabogal</Strong>
                     <br>
                     <div style="padding-top: 8px;">Estudiante de Arquitectura e Ingeniería Electrónica.</div>
                     <div style="font-style:italic;  padding-top: 28px;"><u>jp.bernier10@uniandes.edu.co</u></div>
-                </div>
+                    </div>
+                </center>
             </div>
-            <div class="col-md-5 container espacio_arriba" >
-                <img alt="" src="images/fotos/camilo.jpg" style="width: 304px; height: 400px; object-fit: contain;">
-                <div  class="centrado espacio_arriba espacio_izquierda" >
-                    <Strong style="font-size: 18px;">Andres Camilo Torres</Strong>
+            <div class="col-md-4 container espacio_arriba espacio_izquierda" >
+                <center>
+                <img alt="" src="images/robayo.jpg" style="object-fit: contain;">
+                <div  class=" espacio_arriba" >
+                    <Strong style="font-size: 18px;">Juan Sebastián Robayo Aguilar</Strong>
                     <br>
-                    <div style="padding-top: 8px;">Estudiante de psicología.</div>
-                    <div style="font-style:italic; padding-top: 28px;"><u>ac.torres11@uniandes.edu.co</u></div>
+                    <div style="padding-top: 8px;">Estudiante de Derecho y Ciencia Política.</div>
+                    <div style="font-style:italic; padding-top: 28px;"><u>js.robayo10@uniandes.edu.co</u></div>
                 </div>
+            </center>
+            </div>
+            <div class="col-md-4 container espacio_arriba espacio_izquierda" >
+                <center>
+                <img alt="" src="images/alvaro.jpg" style="object-fit: contain;">
+                <div  class="centrado espacio_arriba" >
+                    <Strong style="font-size: 18px;">Alvaro Andrés Ramirez Maldonado</Strong>
+                    <br>
+                    <div style="padding-top: 8px;">Estudiante de Ingeniería Electrónica</div>
+                    <div style="font-style:italic; padding-top: 28px;"><u>aa.ramirez11 @uniandes.edu.co</u></div>
+                </div>
+            </center>
             </div>
         </div>
     </div>
@@ -140,105 +147,85 @@
         <ul id="hexGrid">
             <li class="hex">
                 <a href="programas.html#padrinazgo" class="hexIn">
-                    <img alt="" src="images/fotos/mateo.jpg">
+                    <img alt="" src="images/laura.jpg" style="object-fit: cover;">
                     <h3>Líder de Padrinazgo</h3>
-                    <p>Mateo Mosquera
+                    <p>Laura Forigua
                        <br>
-                       Estudiante de Ingeniría Civil e Ingeniría Ambiental.
+                       Estudiante de Filosofía.
                        <br>
-                       
+                       la.forigua10@uniandes.edu.co
                     </p>
                 </a>
             </li>
-            <li class="hex">
-                <a href="programas.html#comunicaciones" class="hexIn">
-                    <img src="images/fotos/meme.jpg" alt="" />
-                    <h3>Líder de Diseño</h3>
-                    <p>Remedios
-                        <br>
-                        Estudiante de Diseño.
-                        <br>
-                        
-                    </p>
-                </a>
-            </li>
-            <li class="hex">
+	          <li class="hex">
                 <a href="programas.html#comunidad" class="hexIn">
-                    <img src="images/fotos/loren.jpg" alt="" />
+                    <img src="images/paipa.jpg" alt="" style="object-fit: cover;"/>
                     <h3>Líder de Comunidad ANDAR</h3>
-                    <p>Loren Benavides
+                    <p>David Paipa
                         <br>
-                        Estudiante de Ingeniría Civil e Ingeniría Ambiental.
+                        Estudiante de Física.
                         <br>
-                        
+                        dl.paipa10@uniandes.edu.co
                     </p>
                 </a>
             </li>
             <li class="hex">
                 <a href="programas.html#solucionesA" class="hexIn">
-                    <img src="images/fotos/david.jpg" alt="" />
+                    <img src="images/luisa.jpg" alt="" style="object-fit: cover;"/>
                     <h3>Líder de Soluciones Académicas</h3>
-                    <p>Cesar Camilo Morantes Santana
+                    <p>Luisa Fernanda Montañez
                         <br>
-                        Estudiante de Economía
+                        Estudiante de Ingeniería Civil
                         <br>
-                        cc.morantes10@uniandes.edu.co
+                        lf.montanez10@uniandes.edu.co
                     </p>
                 </a>
             </li>
             <li class="hex">
-                <a href="programas.html#andarSocial" class="hexIn">
-                    <img src="images/fotos/alvaro.jpg" alt="" />
-                    <h3>Líder de Andar Social</h3>
-                    <p>Daniela Perez
+                <a href="programas.html#comunicaciones" class="hexIn">
+                    <img src="images/mariaAngelica.jpg" alt="" style="object-fit: cover;"/>
+                    <h3>Líder de Diseño</h3>
+                    <p>María Angélica Moya
                         <br>
-                        Estudiante de Economía
+                        Estudiante de Diseño.
                         <br>
-                       
+                        ma.moya10@uniandes.edu.co
                     </p>
                 </a>
             </li>
             <li class="hex">
                 <a href="programas.html#comunidad" class="hexIn">
-                    <img src="images/fotos/alfredo.jpg" alt="" />
+                    <img src="images/alfredo.jpg" alt="" style="object-fit: cover;"/>
                     <h3>Líder de Investigación</h3>
                     <p>Alfredo Orozco
                         <br>
                         Estudiante de Economía
                         <br>
-                        
+                        ae.orozco10@uniandes.edu.co
                     </p>
                 </a>
             </li>
             <li class="hex">
                 <a href="programas.html#bancoLibros" class="hexIn">
-                    <img src="images/fotos/majo.jpg" alt="" />
+                    <img src="images/majo.jpg" alt=""  style="object-fit: cover;"/>
                     <h3>Líder de Banco de libros</h3>
-                    <p>Sebastian Pulido Roa
+                    <p>María Jose Moreno
                         <br>
-                        Estudiante de 
+                        Estudiante de Psicología
                         <br>
-                        
+                        mj.moreno12@uniandes.edu.co
                     </p>
                 </a>
             </li>
             <li class="hex">
-                <a href="bancoLibros.html" class="hexIn">
-                    <img src="images/fotos/juliana.jpg" alt="" />
-                    <h3>Secretaria General</h3>
-                    <p>Juliana Cano
-                    </p>
-                </a>
-            </li>
-            <li class="hex">
-                <a href="programas.html#comunidad" class="hexIn">
-                    <img src="images/fotos/robayo.jpg" alt="" />
-                    <h3>Tesorero</h3>
-                    <p>Juan Sebastián Robayo Aguilar
+                <a class="hexIn">
+                    <img src="images/annie.jpg" alt="" style="object-fit: cover;"/>
+                    <h3>Community Manager</h3>
+                    <p>Annie Agredo
                         <br>
-                        Estudiante de Derecho y Ciencia Política
+                        Estudiante de Administración de empresas
                         <br>
-                        js.robayo10@uniandes.edu.co
+                        aj.agredo10@uniandes.edu.co
                     </p>
                 </a>
             </li>
@@ -266,12 +253,15 @@
                 <li style="background: #fff;">
                     <img src="images/duvan.png"/>
                 </li>
-              </ul>  
-        </div>
+                <li style="background: #fff;">
+                    <img src="images/sergio.jpg"/>
+                </li>
+              </ul>
+            </div>
         <div class="slider_option">
               <input type="checkbox" id="checkbox">
               <label for="checkbox" >Automatico</label>
-        </div> 
+        </div>
     </div>
 </div>
 <div class="container">
@@ -283,7 +273,6 @@
             <div class="box_3">
                 <ul class="list_1">
                     <li><a class="fa fa-facebook" href="https://www.facebook.com/andar.uniandes/"></a></li>
-                    <li><a class="fa fa-google-plus" href="#"></a></li>
                     <li><a class="fa fa-instagram" href="https://www.instagram.com/andar_uniandes/"></a></li>
                 </ul>
             </div>
@@ -299,9 +288,9 @@
     <div class="container">
         <div class="row">
             <div class="grid_12">
-                <p class="info text_4 color_4">
+                <p class="info text_3 color_4">
                     © <span id="copyright-year"></span> | ANDAR <br>
-                    Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a> Modified by: YODEB
+                    Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a> Modified by: <a href="http://yodeb.co/" rel="nofollow">YODEB</a>
                 </p>
             </div>
         </div>
